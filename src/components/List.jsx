@@ -80,7 +80,7 @@ export default function List({ passwords, setPasswords, searchQuery }) {
 
       {filtered.map((entry, i) => (
         <div key={i} className="mx-4">
-          <div className="bg-gray-800 text-white p-4 rounded flex flex-col sm:flex-row justify-between gap-4 flex-wrap">
+          <div className="text-white p-4 rounded flex flex-col sm:flex-row justify-between gap-4 flex-wrap">
             <div className="flex-1 min-w-[200px] break-words">
               {editIndex === i ? (
                 <div className="flex flex-col gap-2">
