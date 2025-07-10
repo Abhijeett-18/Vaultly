@@ -1,12 +1,26 @@
-# React + Vite
+# Vaultly 🔐
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6b9136cc-c3d4-4bac-b7db-849a7c747422" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Vaultly is a simple and elegant password manager web app built using **React** and **Tailwind CSS**. It allows you to securely save, view, edit, and delete passwords directly in your browser using `localStorage`. With features like real-time search, password masking, toast notifications, and copy-to-clipboard support, Vaultly helps you manage your credentials without storing anything on a server.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add, edit, and delete password entries
+- Show/hide passwords
+- Copy passwords to clipboard
+- Real-time search filtering
+- Toast notifications for actions
+- Data persistence with `localStorage`
+- Clean, responsive UI with Tailwind CSS
+
+---
+
+## 🛠 Tech Stack
+
+- **React** – Frontend library
+- **Tailwind CSS** – Styling and layout
+- **React Hot Toast** – Toast notifications
+- **localStorage** – Persistent data storage in the browser
